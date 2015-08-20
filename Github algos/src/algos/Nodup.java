@@ -31,6 +31,17 @@ public class Nodup {
 		int[] arr = { 1, 2, 2, 3, 3 };
 		arr = removeDuplicates(arr);
 		System.out.println(arr.length);
+		
+		printarr(arr);
 	}
-
+    
+	public static void printarr(int [] input)
+	{
+		System.out.println();
+		for(int i : input)
+		{
+			System.out.print(" " + i);
+		}
+		System.out.println();
+	}
 }
